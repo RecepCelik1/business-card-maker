@@ -27,7 +27,7 @@ function App() {
                     <ColletPersonalInfos/>
                   </div>
 
-                  <div className="p-2">
+                  <div className="m-2 w-full sm:w-80">
                     <LogoUplodaer/>
                   </div>
                   

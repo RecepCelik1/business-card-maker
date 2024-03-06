@@ -141,9 +141,9 @@ const ColletPersonalInfos = () => {
                     />
 
                 </div>
-                <div className="w-full flex flex-col sm:flex-row pt-2 pb-2 pl-2 pr-0 sm:p-2">
+                <div className="w-full flex flex-col sm:flex-row">
 
-                    <div className="w-full sm:mr-2">
+                    <div className="w-full pr-0 ml-2 pt-2 pb-2 sm:pr-2">
                         <Select
                             className=''
                             options={countries}
@@ -154,7 +154,7 @@ const ColletPersonalInfos = () => {
                         />
                     </div>
 
-                    <div className="w-full mt-4 sm:ml-2 sm:mt-0">
+                    <div className="w-full pt-2 pb-2 pl-0 sm:pl-2 pr-0 sm:pr-2 ml-2 sm:ml-0">
                         {
                             selectedCountry.value ==="United States" ? 
                             (<Select
