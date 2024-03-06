@@ -47,8 +47,8 @@ const CreatePDFbutton = () => {
       doc.line(45, 59, 170, 59); 
       doc.setFontSize(8);
       doc.text(`${address}`, 52 , 69) 
-      doc.text(`${city}`, 52 , 75)
-      doc.text(`${state}`, 52 , 78)
+      doc.text(`${state}`, 52 , 75)
+      doc.text(`${city}`, 52 , 78)
       doc.text(`${postalCode}`, 52 , 81)
 
       doc.text(`${emailAdress}`, 122 , 78) 
