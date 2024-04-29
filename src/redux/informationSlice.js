@@ -1,7 +1,7 @@
     import { createSlice } from '@reduxjs/toolkit'
 
     const initialState = {
-        firstName : "alet balyoz gibi",
+        firstName : "",
         lastName : "",
         companyName : "",
         jobTitle : "",
